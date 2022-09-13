@@ -17,6 +17,10 @@
 	clear: both;
 }
 
+@font-face{
+  font-family:odin-font;
+  src:url(../fonts/Norse-Bold.otf);
+}
 /******************************************
 /* BASE STYLES
 /*******************************************/
@@ -51,6 +55,8 @@ body {
   justify-content:center;
   color:white;
   align-items:center;
+  font-family:'odin-font', sans-serif;
+  font-size:40px;
 
 }
 
