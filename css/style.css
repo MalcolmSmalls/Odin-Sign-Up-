@@ -110,6 +110,8 @@ body {
 .form {
   background-color:white;
   padding-left:60px;
+  padding-bottom:20px;
+  box-shadow:5px 5px 5px rgba(0,0,0,.2)
 }
 
 form{
@@ -149,10 +151,20 @@ input:focus{
 h2 {
   padding-top:20px;
 }
-footer {
 
+.bottom_half{
+  padding-top:30px;
+  padding-left:60px;
 }
 
+.bottom_half button{
+  background-color: rgba(96, 108, 74);
+  color:white;
+  padding:10px;
+  width:200px;
+  border-radius:6px;
+  box-shadow:5px 5px 5px rgba(0,0,0,.1)
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
