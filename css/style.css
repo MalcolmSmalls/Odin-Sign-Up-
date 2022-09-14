@@ -48,7 +48,7 @@ body {
 
 .logo {
   display:flex;
-  margin-top:30%;
+  margin-top:33%;
   background-color:rgba(0,0,0,.5);
   height:130px;
   width:100%;
@@ -60,9 +60,39 @@ body {
 
 }
 
+.right {
+  background-color:rgb(249, 250, 251);
+  /* padding-left:60px; */
+  font-family:sans-serif;
+}
+
+
+.right p {
+  margin-top:10%;
+  padding-left:60px;
+}
+.right p, .p-span, .italicize {
+  font-weight:bolder;
+  font-size:25px;
+  width:75%;
+
+}
+
+.p-span{
+  padding-left:60px;
+  display:inline-block;
+  margin-top:10px;
+  margin-bottom:50px;
+}
+
 .logo img{
   height:80%;
   width:auto;
+}
+
+.italicize {
+  font-style:italic;
+  font-weight:bold;
 }
 
 .copyrightFooter{
@@ -76,10 +106,10 @@ body {
 .copyrightFooter a{
   color:white;
 }
-header {
 
+.form {
+  background-color:white;
 }
-
 footer {
 
 }
