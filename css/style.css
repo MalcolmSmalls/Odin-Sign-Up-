@@ -179,7 +179,7 @@ h2 {
   color:rgba(96, 108, 74);
 }
 
-#confirmed_password, #password {
+.invalid {
   border-color:rgba(179, 93, 88);
 }
 
@@ -188,6 +188,10 @@ h2 {
   top:590px;
   position:absolute;
   font-size:12px;
+}
+
+.hidden{
+  display:none;
 }
 /******************************************
 /* ADDITIONAL STYLES
